@@ -30,5 +30,6 @@ resource "aws_instance" "aws-ec2" {
   tags = {
     Name = var.ec2_name
     SWQA = "DevOps"
+    dir = "dir1"
    }
 }
